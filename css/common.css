@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 
 
 *{
@@ -42,3 +42,4 @@ button{
 	--lightyellow: #FBF6EA;
 	--buttonhover: #EDC14A;
 }
+
