@@ -6,8 +6,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Finsweet</title>
     <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
   </head>
   <body>
-    
+    <nav id="navbar" class="navbarshrink">
+      <div class="container navcontainer">
+        <div class="navlogo">
+          <img src="./images/Logo.png" alt="">
+        </div>
+        <div class="hamburger">
+          <i class="uil uil-bars" onclick="openNavbar()"></i>
+        </div>
+        <div class="navlinks">
+          <a href="#">Home</a>
+          <a href="blog.html">Blog</a>
+          <a href="about.html">About us</a>
+          <a href="contact.html">Contact us</a>
+          <button class="navbutton">Subscribe</button>
+        </div>
+        <div id="navbar-responsive" class="overlay">
+          <i id="navbar-close" class="uil uil-multiply" onclick="closeNavbar()"></i>
+          <div class="hamcontent">
+            <a href="#">Home</a>
+            <a href="blog.html">Blog</a>
+            <a href="about.html">About us</a>
+            <a href="contact.html">Contact us</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <footer>
+      <div class="container">
+        <div class="footertop">
+          <img src="./images/Logo.png" alt="">
+          <div class="footerlinks">
+            <a href="#">Home</a>
+            <a href="blog.html">Blog</a>
+            <a href="about.html">About us</a>
+            <a href="contact.html">Contact us</a>
+            <a href="policy.html">Privacy Policy</a>
+          </div>
+        </div>
+        <div class="footer-subscribe">
+          <h2>Subscribe to our news letter to get latest updates and news</h2>
+          <form class="footer-form" >
+            <input type="email" placeholder="Enter Your Email">
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+        <div class="footer-bottom">
+          <div class="footer-bottom-left">
+            <p>Finstreet 118 2561 Fintown</p>
+            <p>Hello@finsweet.com  020 7993 2905</p>
+          </div>
+          <div class="footer-bottom-right">
+            <a href="https://www.facebook.com/"><img src="./images/facebook.png" alt=""></a>
+            <a href="https://www.twitter.com/"><img src="./images/twitter.png" alt=""></a>
+            <a href="https://www.instagram.com/"><img src="./images/instagram.png" alt=""></a>
+            <a href="https://www.linkedin.com/"><img src="./images/linkedin.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/main.js"></script>
   </body>
 </html>
