@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
 *{
 	margin: 0;
 	padding: 0;
@@ -22,4 +26,19 @@ input:focus{
 
 button{
 	cursor: pointer;
+}
+
+
+:root{
+	--sen: 'Sen', sans-serif;
+	--inter: 'Inter', sans-serif;
+	--black: #232536;
+	--yellow: #FFD050;
+	--purple: #592EA9;
+	--darkgrey: #4C4C4C;
+	--grey: #6D6E76;
+	--lightgrey: #F4F4F4;
+	--white: #F4F0F8;
+	--lightyellow: #FBF6EA;
+	--buttonhover: #EDC14A;
 }
