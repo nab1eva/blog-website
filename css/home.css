@@ -464,6 +464,16 @@ main{
 	height: 128px;
 }
 
+.home-authors-card h1 a{
+	font-family: var(--sen);
+	color: var(--black);
+	text-align: center;
+	font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -1px;
+}
+
 .home-authors-card h1{
 	margin-top: 20px;
 	margin-bottom: 0;
