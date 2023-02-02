@@ -526,13 +526,6 @@ line-height: 32px;
 
 
 
-#backtop:hover {
-  color: #ffffff;
-  background: #edc14a;
-  transition: 0.3s;
-}
-
-
 /* media */
 
 @media (max-width: 1285px) {
