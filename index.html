@@ -7,6 +7,8 @@
     <title>Finsweet</title>
     <link rel="stylesheet" href="./css/common.css" />
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <nav id="navbar" class="navbarshrink">
@@ -179,6 +181,57 @@
               </div>
             </div>
           </div>
+          <div class="home-authors-logos">
+            <div class="home-authors-logos-left">
+              <p>We are</p>
+              <h2>Featured in</h2>
+            </div>
+            <div class="home-authors-logo">
+              <img src="images/home/Logo 1.png" alt="">
+              <img src="images/home/Logo 2.png" alt="">
+              <img src="images/home/Logo 3.png" alt="">
+              <img src="images/home/Logo 4.png" alt="">
+              <img src="images/home/Logo 5.png" alt="">
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="home-carousel-section">
+            <div class="home-carousel-left">
+              <h2>TESTIMONIALS</h2>
+              <h1>What people say about our blog</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+            </div>
+            <div class="home-carousel-right">
+              <div class="owl-carousel">
+                <div>
+                  <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
+                  <div class="carousel-user">
+                    <img src="images/home/carouselimg.png" alt="">
+                    <div class="carousel-username">
+                      <h1>Jonathan Vallem</h1>
+                      <p>New york, USA</p>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
+                  <div class="carousel-user">
+                    <img src="images/home/a3.png" alt="">
+                    <div class="carousel-username">
+                      <h1>Jenny Wilson</h1>
+                      <p>Paris, France</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="home-join-section">
+          <h1>Join our team to be a part of our story</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+          <button>Join Now</button>
         </section>
       </div>
     </main>
@@ -215,6 +268,26 @@
         </div>
       </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./js/main.js"></script>
+    <script>
+      $(document).ready(function(){
+    $(".owl-carousel").owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: true, 
+    items: 1,
+    responsive: {
+		800: {
+			items:1
+		},
+		1250: {
+			items:1
+		},
+	},
+    });
+  });
+    </script>
   </body>
 </html>
