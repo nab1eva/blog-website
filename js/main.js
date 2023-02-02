@@ -1,3 +1,5 @@
+
+
 window.addEventListener("scroll", function () {
 	shrink();
   });
@@ -27,6 +29,8 @@ window.addEventListener("scroll", function () {
   document.getElementById("navbar-open").addEventListener("click", openNavbar);
   document.getElementById("navbar-close").addEventListener("click", closeNavbar);
 
+
+  
   window.addEventListener("scroll", function () {
     toggleBacktop();
   });
