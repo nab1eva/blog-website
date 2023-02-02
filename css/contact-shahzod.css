@@ -1,0 +1,203 @@
+@import url("common.css");
+
+.container {
+   background-color: #E5E5E5;
+   height: 1300px;
+}
+
+.content h1{
+    padding-top: 128px;
+    padding-bottom: 17px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #232536;
+}
+
+h2{
+    margin: 12px 0px 24px;
+    font-family: sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -2px;
+    text-align: center;
+}
+
+.content p {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+    height: 56px;
+    width: 768px;
+    margin: 0 auto;
+}
+
+#pastki-qism{
+    margin-top: 58px;
+}
+
+.containers{
+    padding-top: 64px;
+    width: 768px;
+    height: 280px;
+    background-color: #592EA9;
+    margin: 0 auto;
+    display: flex;
+}
+
+.left-content {
+    width: 50%;
+    display: inline-block;
+}
+
+.left-content a {
+    position: absolute;
+    font-family: sans-serif;
+    padding: 0px 0px 0px 54px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgb(201, 191, 191);
+}
+
+.hr1 {
+    margin: 40px 0px 0px 54px;
+        width: 294px;
+        height: 0px;
+        border: 1px solid rgb(201, 191, 191);
+}
+
+.left-content h1 {
+   padding: 30px 71px 13px 54px;
+   font-family: sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 28px;
+   line-height: 32px;
+   color: #FFFFFF;
+}
+
+.left-content p {
+   padding: 10px 29px 10px 54px;
+   font-family: sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 28px;
+   color: rgb(201, 191, 191);
+}
+
+
+.right-content {
+    width: 50%;
+    display: inline-block;
+}
+
+.right-content a {
+    position: absolute;
+    font-family: sans-serif;
+    padding: 0px 0px 0px 54px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgb(201, 191, 191);
+}
+
+.hr2 {
+    margin: 40px 0px 0px 54px;
+        width: 294px;
+        height: 0px;
+        border: 1px solid rgb(201, 191, 191);
+}
+
+.right-content h3 {
+    padding: 30px 71px 13px 54px;
+   font-family: sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 28px;
+   line-height: 32px;
+   color: #FFFFFF;
+}
+
+.right-content p {
+    padding: 10px 29px 10px 54px;
+   font-family: sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 28px;
+   color: rgb(201, 191, 191);
+}
+
+form {
+    margin-top: 30px;  
+    width: 768px;
+}
+
+.forms {
+    width: 768px;
+}
+
+#username {
+    margin: 0px 257px;
+    padding: 24px 580px 24px 24px;
+}
+
+#Your-Email {
+    margin: 0px 257px;
+    padding: 24px 580px 24px 24px;
+}
+
+#related {
+    margin: 0px 257px;
+    padding: 24px 580px 24px 24px;
+}
+
+#sorovnoma{
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 880px;
+    border-radius: 6px;
+}
+
+textarea {
+    margin: 0px 257px;
+    padding: 24px 4px 24px 24px;
+}
+
+.tugma {
+    margin: 0px 257px;
+    padding: 16px 304px;
+    background-color: #ffd256;
+}
+
+.tugma p {
+    font-family: sans-serif;
+font-size: 24px;
+font-weight: 700;
+line-height: 32px;
+    color: #232536;
+}
+
+.tugma:hover {
+    background-color: #d4a41f;
+    transition: 0.5s;
+}
+
+
+@media (max-width: 1140px) {
+    .container {
+        width: 100%;
+    }
+}
+
+
+
