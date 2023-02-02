@@ -1,25 +1,25 @@
+
+
+
 #backtop {
     position: fixed;
     bottom: 30px;
     right: 30px;
     z-index: 99;
-    border: 3px solid var(--yellow);
+    border: 4px solid var(--yellow);
     outline: none;
     cursor: pointer;
     padding: 10px;
-    border-radius: 50px;
-    transition: 1s;
+	border-radius: 50%;
     background-color: var(--background);
 }
 
-  #backtop a{
+#backtop a{
     font-weight: 700;
     font-size: 24px;
-    line-height: 32px;
-    letter-spacing: 0.1px;
+	line-height: 32px;
     color: var(--yellow);
 }
-
 
 
 
