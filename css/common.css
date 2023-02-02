@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+@import url(nav.css);
+@import url(footer.css);
+
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style-type: none;
+	scroll-behavior: smooth;
+	transition: var(--tran);
+}
+
+*, *::after, *::before{
+	box-sizing: border-box;
+}
+
+.container{
+	min-width: 350px;
+	max-width: 1350px;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+
+input:focus{
+	outline: none;
+}
+
+button{
+	cursor: pointer;
+}
+
+
+:root{
+	--tran: all 0.5s ease;
+	--sen: 'Sen', sans-serif;
+	--inter: 'Inter', sans-serif;
+	--black: #232536;
+	--yellow: #FFD050;
+	--purple: #592EA9;
+	--darkgrey: #4C4C4C;
+	--grey: #6D6E76;
+	--lightgrey: #F4F4F4;
+	--white: #F4F0F8;
+	--lightyellow: #FBF6EA;
+	--buttonhover: #EDC14A;
+}
+
+img{
+	width: 100%;
+}
+
+
