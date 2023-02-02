@@ -1,10 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
 
-@import url(nav.css);
-
-
-
 * {
   margin: 0;
   padding: 0;
@@ -34,23 +30,76 @@ input:focus {
 button {
   cursor: pointer;
 }
-
-:root {
-  --tran: all 0.5s ease;
-  --sen: "Sen", sans-serif;
-  --inter: "Inter", sans-serif;
-  --black: #232536;
-  --yellow: #ffd050;
-  --purple: #592ea9;
-  --darkgrey: #4c4c4c;
-  --grey: #6d6e76;
-  --lightgrey: #f4f4f4;
-  --white: #f4f0f8;
-  --lightyellow: #fbf6ea;
-  --buttonhover: #edc14a;
-  --background: #ffffff;
+.navbar {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  background: #232536;
+  z-index: 10;
 }
 
-img {
-  width: 100%;
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-left {
+  margin-top: 25px;
+}
+
+.navbar-right {
+  display: flex;
+  margin-top: 10px;
+}
+
+.navbar-right .nav-link {
+  font-family: "Inter", sans-serif;
+  padding-right: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.navbar-right-button a button {
+  width: 179px;
+  height: 56px;
+  margin-left: 8px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  border: none;
+  color: #232536;
+}
+
+.navbar-right-button a button:hover {
+  background: #ffd050;
+  transition: 0.5s;
+}
+
+.toggle {
+  display: none;
+  margin-top: 20px;
+}
+
+.toggle button {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  font-size: 20px;
+  border: none;
+  color: #2e3040;
+  background: #ffffff;
+}
+
+.toggle button:hover {
+  background: #ffd050;
+  transition: 0.5s;
+}
+
+#navbar-responsive {
+  display: none;
 }
