@@ -100,9 +100,26 @@ button {
   background: #ffffff;
 }
 
+#navbar-close{
+  color: #2e3040;
+  background: #ffffff;
+  border: none;
+  position: absolute;
+  right: 30px;
+  width: 40px;
+  height: 40px;
+}
+
+#navbar-close:hover{
+  background: #edc14a;
+}
+
+#navbar-close i{
+  font-size: 22px;
+}
+
 .toggle > button:hover {
   background: #edc14a;
-  transition: 0.5s;
 }
 
 #navbar-responsive {
