@@ -6,25 +6,291 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Finsweet</title>
     <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
-    <h1>Nabieva Zakhro</h1>
-<<<<<<< HEAD
-	<h2>Abdullox bosh xarifi kotta!</h2>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam non numquam
-      excepturi, temporibus delectus officiis nemo ad ut itaque eligendi hic
-      repellendus, consequuntur mollitia optio laborum maiores explicabo alias
-      quod sint. Nulla quae nam quidem at illo facere, deserunt voluptates
-      aliquid nobis mollitia id nihil! Dolorum, enim eius exercitationem
-      recusandae laborum error commodi aliquid ullam cumque quos, nemo molestias
-      rem excepturi optio porro pariatur officiis dicta illo ex inventore ipsa?
-      Labore tempora excepturi temporibus laborum vel ratione eaque corporis
-      possimus blanditiis, tenetur ipsum illo. Quaerat, praesentium corporis
-      placeat unde quod laboriosam sapiente dolore explicabo modi ad tempora,
-      officiis voluptates. In?
-    </p>
-=======
->>>>>>> 707fcef10e3167c07c274bd586d3b180043687be
+    <button id="backtop" style="opacity: 1;">
+      <a href="#">Up</a>
+    </button>
+    <nav id="navbar" class="navbarshrink">
+      <div class="container navcontainer">
+        <div class="navlogo">
+          <img src="./images/Logo.png" alt="">
+        </div>
+        <div class="hamburger">
+          <i class="uil uil-bars" onclick="openNavbar()"></i>
+        </div>
+        <div class="navlinks">
+          <a href="index.html">Home</a>
+          <a href="blog.html">Blog</a>
+          <a href="about.html">About us</a>
+          <a href="contact.html">Contact us</a>
+          <button class="navbutton">Subscribe</button>
+        </div>
+        <div id="navbar-responsive">
+          <i id="navbar-close" class="uil uil-multiply" onclick="closeNavbar()"></i>
+          <div class="hamcontent">
+            <a href="index.html">Home</a>
+            <a href="blog.html">Blog</a>
+            <a href="about.html">About us</a>
+            <a href="contact.html">Contact us</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <header>
+      <div class="container">
+        <section class="headercontent">
+          <h2>Posted on <span>startup</span></h2>
+          <h1>Step-by-step guide to choosing great font pairs</h1>
+          <p>By <span>James West</span>  |  May 23, 2022 </p>
+          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+          <button><a href="blogpost.html"> Read More <i class="uil uil-angle-right-b"></i></a></button>
+        </section>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <section class="featured-post">
+          <div class="featured-post-left">
+            <h1>Featured Post</h1>
+            <div class="postcard">
+              <img src="./images/home/postimg.png" alt="">
+              <p>By John Doe   l   May 23, 2022</p>
+              <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</h1>
+              <h2>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</h2>
+              <button><a href="">Read More <i class="uil uil-angle-right-b"></i></a></button>
+            </div>
+          </div>
+          <div class="featured-post-right">
+            <div class="featured-post-right-top">
+               <h1>All Posts</h1>
+               <a href="blogpost.html">View All</a>
+            </div>
+            <div class="featured-post-cards">
+              <div class="featured-postcard">
+                <p>By <span>John Deo</span>   l   Aug 23, 2021 </p>
+                <h1>8 Figma design systems that you can download for free today.</h1>
+              </div>
+              <div class="featured-postcard">
+                <p>By <span>John Deo</span>   l   Aug 23, 2021 </p>
+                <h1>8 Figma design systems that you can download for free today.</h1>
+              </div>
+              <div class="featured-postcard">
+                <p>By <span>John Deo</span>   l   Aug 23, 2021 </p>
+                <h1>8 Figma design systems that you can download for free today.</h1>
+              </div>
+              <div class="featured-postcard">
+                <p>By <span>John Deo</span>   l   Aug 23, 2021 </p>
+                <h1>8 Figma design systems that you can download for free today.</h1>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="home-about-section">
+          <div class="home-about-section-side">
+            <h2>About Us</h2>
+            <h1>We are a community of content writers who share their learnings</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="">Read more <i class="uil uil-angle-right-b"></i></a>
+          </div>
+          <div class="home-about-section-side">
+            <h2>Our Mission</h2>
+            <h1>Creating valuable content for creatives all around the world</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </section>
+        <section class="home-category">
+          <h1>Choose A Catagory</h1>
+          <div class="home-categories">
+            <div class="home-category-card">
+              <img src="./images/home/i1.png" alt="">
+              <h1>Business</h1>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            </div>
+            <div class="home-category-card">
+              <img src="./images/home/i2.png" alt="">
+              <h1>Startup</h1>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            </div>
+            <div class="home-category-card">
+              <img src="./images/home/i3.png" alt="">
+              <h1>Economy</h1>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            </div>
+            <div class="home-category-card">
+              <img src="./images/home/i4.png" alt="">
+              <h1>Technology</h1>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            </div>
+          </div>
+        </section>
+        <section class="home-discover-story">
+          <img src="images/home/bgimg2.png" alt="">
+          <div class="home-discover-story-card">
+            <h2>Why we started </h2>
+            <h1>It started out as a simple idea and evolved into our passion</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+            <button><a href="about.html">Discover our story <i class="uil uil-angle-right-b"></i></a></button>
+          </div>
+        </section>
+        <section class="home-authors">
+          <h1>List Of Authors</h1>
+          <div class="home-authors-cards">
+            <div class="home-authors-card">
+              <img src="images/home/a1.png" alt="">
+              <h1>Floyd Miles</h1>
+              <p>Content Writer @Company</p>
+              <div class="home-authors-card-links">
+                <a href="https://www.facebook.com/"><img src="./images/facebook.png" alt=""></a>
+                <a href="https://www.twitter.com/"><img src="./images/twitter.png" alt=""></a>
+                <a href="https://www.instagram.com/"><img src="./images/instagram.png" alt=""></a>
+                <a href="https://www.linkedin.com/"><img src="./images/linkedin.png" alt=""></a>
+              </div>
+            </div>
+            <div class="home-authors-card">
+              <img src="images/home/a2.png" alt="">
+              <h1>Dianne Russell</h1>
+              <p>Content Writer @Company</p>
+              <div class="home-authors-card-links">
+                <a href="https://www.facebook.com/"><img src="./images/facebook.png" alt=""></a>
+                <a href="https://www.twitter.com/"><img src="./images/twitter.png" alt=""></a>
+                <a href="https://www.instagram.com/"><img src="./images/instagram.png" alt=""></a>
+                <a href="https://www.linkedin.com/"><img src="./images/linkedin.png" alt=""></a>
+              </div>
+            </div>
+            <div class="home-authors-card">
+              <img src="images/home/a3.png" alt="">
+              <h1>Jenny Wilson</h1>
+              <p>Content Writer @Company</p>
+              <div class="home-authors-card-links">
+                <a href="https://www.facebook.com/"><img src="./images/facebook.png" alt=""></a>
+                <a href="https://www.twitter.com/"><img src="./images/twitter.png" alt=""></a>
+                <a href="https://www.instagram.com/"><img src="./images/instagram.png" alt=""></a>
+                <a href="https://www.linkedin.com/"><img src="./images/linkedin.png" alt=""></a>
+              </div>
+            </div>
+            <div class="home-authors-card">
+              <img src="images/home/a4.png" alt="">
+              <h1>Leslie Alexander</h1>
+              <p>Content Writer @Company</p>
+              <div class="home-authors-card-links">
+                <a href="https://www.facebook.com/"><img src="./images/facebook.png" alt=""></a>
+                <a href="https://www.twitter.com/"><img src="./images/twitter.png" alt=""></a>
+                <a href="https://www.instagram.com/"><img src="./images/instagram.png" alt=""></a>
+                <a href="https://www.linkedin.com/"><img src="./images/linkedin.png" alt=""></a>
+              </div>
+            </div>
+          </div>
+          <div class="home-authors-logos">
+            <div class="home-authors-logos-left">
+              <p>We are</p>
+              <h2>Featured in</h2>
+            </div>
+            <div class="home-authors-logo">
+              <img src="images/home/Logo 1.png" alt="">
+              <img src="images/home/Logo 2.png" alt="">
+              <img src="images/home/Logo 3.png" alt="">
+              <img src="images/home/Logo 4.png" alt="">
+              <img src="images/home/Logo 5.png" alt="">
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="home-carousel-section">
+            <div class="home-carousel-left">
+              <h2>TESTIMONIALS</h2>
+              <h1>What people say about our blog</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+            </div>
+            <div class="home-carousel-right">
+              <div class="owl-carousel">
+                <div>
+                  <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
+                  <div class="carousel-user">
+                    <img src="images/home/carouselimg.png" alt="">
+                    <div class="carousel-username">
+                      <h1>Jonathan Vallem</h1>
+                      <p>New york, USA</p>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
+                  <div class="carousel-user">
+                    <img src="images/home/a3.png" alt="">
+                    <div class="carousel-username">
+                      <h1>Jenny Wilson</h1>
+                      <p>Paris, France</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="home-join-section">
+          <h1>Join our team to be a part of our story</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+          <button><a href="contact.html"></a>Join Now</button>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="footertop">
+          <img src="./images/Logo.png" alt="">
+          <div class="footerlinks">
+            <a href="index.html">Home</a>
+            <a href="blog.html">Blog</a>
+            <a href="about.html">About us</a>
+            <a href="contact.html">Contact us</a>
+            <a href="policy.html">Privacy Policy</a>
+          </div>
+        </div>
+        <div class="footer-subscribe">
+          <h2>Subscribe to our news letter to get latest updates and news</h2>
+          <form class="footer-form" >
+            <input type="email" placeholder="Enter Your Email">
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+        <div class="footer-bottom">
+          <div class="footer-bottom-left">
+            <p>Finstreet 118 2561 Fintown</p>
+            <p>Hello@finsweet.com  020 7993 2905</p>
+          </div>
+          <div class="footer-bottom-right">
+            <a href="https://www.facebook.com/"><img src="./images/facebook.png" alt=""></a>
+            <a href="https://www.twitter.com/"><img src="./images/twitter.png" alt=""></a>
+            <a href="https://www.instagram.com/"><img src="./images/instagram.png" alt=""></a>
+            <a href="https://www.linkedin.com/"><img src="./images/linkedin.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/main.js"></script>
+    <script>
+      $(document).ready(function(){
+    $(".owl-carousel").owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: true, 
+    items: 1,
+    responsive: {
+		800: {
+			items:1
+		},
+		1250: {
+			items:1
+		},
+	},
+    });
+  });
+    </script>
   </body>
 </html>

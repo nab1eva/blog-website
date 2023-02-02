@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  scroll-behavior: smooth;
+  transition: var(--tran);
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.container {
+  min-width: 350px;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
+.navbar {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  background: #232536;
+  z-index: 10;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-left {
+  margin-top: 25px;
+}
+
+.navbar-right {
+  display: flex;
+  margin-top: 10px;
+}
+
+.navbar-right > .nav-link {
+  font-family: "Inter", sans-serif;
+  padding-right: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.navbar-right-button a button {
+  width: 179px;
+  height: 56px;
+  margin-left: 8px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  border: none;
+  color: #232536;
+}
+
+.navbar-right-button a button:hover {
+  background: #ffd050;
+  transition: 0.5s;
+}
+
+.toggle {
+  display: none;
+  margin-top: 20px;
+}
+
+.toggle button {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  font-size: 20px;
+  border: none;
+  color: #2e3040;
+  background: #ffffff;
+}
+
+.toggle button:hover {
+  background: #ffd050;
+  transition: 0.5s;
+}
+
+#navbar-responsive {
+  display: none;
+}
+
+.logo {
+  position: absolute;
+  width: 1440px;
+  height: 560px;
+  right: 0px;
+  top: 80px;
+  background: #f4f0f8;
+}
+.logo-image {
+  position: absolute;
+  width: 251px;
+  height: 294px;
+  right: 981px;
+  bottom: 100px;
+  background: url(../images/author/first-image.jpg);
+}
+.logo h1 {
+  position: absolute;
+  width: 669px;
+  height: 128px;
+  right: 280px;
+  top: 168px;
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -2px;
+  color: #232536;
+}
+p {
+  position: absolute;
+  width: 645px;
+  height: 84px;
+  right: 301px;
+  top: 324px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #6d6e76;
+}
+.cards {
+  display: flex;
+}
+.card h1 {
+  position: absolute;
+  width: 192px;
+  height: 64px;
+  right: 1040px;
+  top: 758px;
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: -2px;
+  color: #232536;
+}
+.card-image {
+  position: absolute;
+  width: 412px;
+  height: 320px;
+  left: 108px;
+  top: 886px;
+  background: url(../images/author/second-image.jpg);
+}
+.card p {
+  position: absolute;
+  width: 170.44px;
+  height: 20px;
+  left: 552px;
+  top: 942px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #592ea9;
+}
+h2 {
+  position: absolute;
+  width: 560.38px;
+  height: 96px;
+  left: 552px;
+  top: 982px;
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -2px;
+  color: #232536;
+}
+.text p {
+  position: absolute;
+  width: 580px;
+  height: 56px;
+  left: 652px;
+  top: 1094px;
+  
+  /* Body 1 */
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+  
+  
+  /* Medium grey */
+  
+  color: #6D6E76;
+}
+@media (max-width: 1120px) {
+  .navbar-right {
+    display: none;
+  }
+  .toggle {
+    display: block;
+  }
+  #navbar-responsive {
+    display: grid;
+    justify-content: center;
+    position: fixed;
+    margin-top: 80px;
+    top: -100%;
+    bottom: 0;
+    height: 30vh;
+    width: 100%;
+    background-color: #232536;
+    transition: 0.5s;
+  }
+  #navbar-responsive a {
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #ffffff;
+  }
+}
