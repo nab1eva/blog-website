@@ -350,10 +350,7 @@ main{
 
 
 .home-discover-story-card{
-	bottom: 0;
-	right: 0;
-	position: absolute;
-	background-color: var(--white);
+	background-color: var(--background);
 	max-width: 706px;
 	padding: 80px;
 }
@@ -405,12 +402,96 @@ main{
 }
 
 
+
+.home-authors{
+	margin-top: 128px;
+}
+
+
+.home-authors h1{
+	font-family: var(--sen);
+	color: var(--black);
+	text-align: center;
+	font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -2px;
+	margin-bottom: 48px;
+}
+
+.home-authors-cards{
+	display: flex;
+	gap: 32px;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.home-authors-card{
+	background-color: var(--lightgrey);
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 40px;
+	width: 296px;
+    height: 324px;
+}
+
+.home-authors-card:hover{
+	background-color: var(--lightyellow);
+}
+
+.home-authors-card img{
+	width: 128px;
+	height: 128px;
+}
+
+.home-authors-card h1{
+	margin-top: 20px;
+	margin-bottom: 0;
+	font-family: var(--sen);
+	color: var(--black);
+	text-align: center;
+	font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -1px;
+}
+
+.home-authors-card p{
+	font-family: var(--inter);
+	color: var(--grey);
+	font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
+.home-authors-card-links{
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	gap: 18px;
+}
+
+.home-authors-card-links img{
+	width: 16px;
+	height: 16px;
+}
+
+
+
 @media(min-width:800px){
 	.featured-post{
 		grid-template-columns: repeat(2, auto);
 	}
 	.home-about-section{
 		grid-template-columns: repeat(2, auto);
+	}
+	.home-discover-story-card{
+		bottom: 0;
+		right: 0;
+		position: absolute;
 	}
 }
 
