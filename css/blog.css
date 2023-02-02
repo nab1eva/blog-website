@@ -7,7 +7,7 @@
   text-decoration: none;
   list-style-type: none;
   scroll-behavior: smooth;
-  transition: var(--tran);
+  transition: 0.5s;
 }
 
 *,
@@ -81,7 +81,7 @@ button {
 }
 
 .navbar-right-button a > button:hover {
-  background: #ffd050;
+  background: #edc14a;
   transition: 0.5s;
 }
 
@@ -100,9 +100,26 @@ button {
   background: #ffffff;
 }
 
+#navbar-close{
+  color: #2e3040;
+  background: #ffffff;
+  border: none;
+  position: absolute;
+  right: 30px;
+  width: 40px;
+  height: 40px;
+}
+
+#navbar-close:hover{
+  background: #edc14a;
+}
+
+#navbar-close i{
+  font-size: 22px;
+}
+
 .toggle > button:hover {
-  background: #ffd050;
-  transition: 0.5s;
+  background: #edc14a;
 }
 
 #navbar-responsive {
@@ -175,6 +192,11 @@ button {
   font-size: 18px;
   line-height: 24px;
   color: #232536;
+}
+
+.home-left .home-button > button:hover {
+  background: #edc14a;
+  transition: 0.5s;
 }
 
 #slider {
@@ -373,6 +395,11 @@ button {
   line-height: 24px;
 }
 
+.join-button > button:hover {
+  background: #edc14a;
+  transition: 0.5s;
+}
+
 /* footer */
 
 #footer {
@@ -451,6 +478,11 @@ button {
   cursor: pointer;
 }
 
+.footer-input-right form > #submit:hover {
+  background: #edc14a;
+  transition: 0.5s;
+}
+
 .footer-bottom {
   display: flex;
   justify-content: space-between;
@@ -491,7 +523,7 @@ button {
 
 #backtop:hover {
   color: #ffffff;
-  background: #ffd050;
+  background: #edc14a;
   transition: 0.3s;
 }
 

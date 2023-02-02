@@ -1,8 +1,43 @@
+<<<<<<< HEAD
 header {
   padding-top: 76px;
   background-image: url(../images/home/bgimg.png);
   background-size: cover;
   background-repeat: no-repeat;
+=======
+
+
+
+#backtop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 99;
+    border: 4px solid var(--yellow);
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+	border-radius: 50%;
+    background-color: var(--background);
+}
+
+#backtop a{
+    font-weight: 700;
+    font-size: 24px;
+	line-height: 32px;
+    color: var(--yellow);
+}
+
+
+
+	
+
+header{
+	padding-top: 76px;
+	background-image: url(../images/home/bgimg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+>>>>>>> 2e491d813f24026e28b085e0a1a840be5274f79f
 }
 
 .headercontent {
@@ -269,10 +304,17 @@ main {
   gap: 32px;
 }
 
+<<<<<<< HEAD
 .home-category-card {
   max-width: 269px;
   border: 1px solid #6d6e76;
   padding: 32px;
+=======
+.home-category-card{
+	max-width: 296px;
+	border: 1px solid #6D6E76;
+	padding: 32px;
+>>>>>>> 2e491d813f24026e28b085e0a1a840be5274f79f
 }
 
 .home-category-card:hover {
@@ -614,6 +656,7 @@ main {
   border: none;
 }
 
+<<<<<<< HEAD
 .home-join-section button a {
   font-family: var(--sen);
   color: var(--black);
@@ -687,4 +730,65 @@ main {
   .home-authors-logo {
     gap: 80px;
   }
+=======
+
+.owl-nav button{
+	font-size: 25px !important;
+	background-color: var(--background) !important;
+	height: 48px;
+	width: 48px;
+	border-radius: 50%;
+}
+
+
+.home-join-section{
+	margin: 128px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.home-join-section h1{
+	text-align: center;
+	max-width: 414px;
+	font-family: var(--sen);
+	color: var(--black);
+	font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+}
+
+
+.home-join-section p{
+	text-align: center;
+	max-width: 405px;
+	font-family: var(--inter);
+	color: var(--grey);
+	font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+	margin: 16px 0 32px;
+}
+
+
+
+.home-join-section button{
+	padding: 16px 48px;
+	background-color: var(--yellow);
+	border: none;
+	font-family: var(--sen);
+	color: var(--black);
+	font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.home-join-section button a{
+	font-family: var(--sen);
+	color: var(--black);
+	font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+>>>>>>> 2e491d813f24026e28b085e0a1a840be5274f79f
 }
