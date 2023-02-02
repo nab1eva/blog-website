@@ -678,11 +678,6 @@ main{
 	padding: 16px 48px;
 	background-color: var(--yellow);
 	border: none;
-	font-family: var(--sen);
-	color: var(--black);
-	font-weight: 700;
-    font-size: 18px;
-    line-height: 24px;
 }
 
 .home-join-section button a{
