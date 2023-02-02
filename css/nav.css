@@ -29,16 +29,16 @@ nav{
     top: -100%;
 	left: 0;
     bottom: 0;
-    height: 100vh;
+    height: 250px;
     width: 100%;
 	text-align: center;
-	background-color:  #232536e4;
+	background-color:  #232536f4;
 }
 
 
 .uil-multiply{
 	cursor: pointer;
-	padding: 25px 20px;
+	padding: 25px 30px;
 	color: var(--white);
 	font-size: 35px;
 	position: absolute;
