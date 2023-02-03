@@ -271,10 +271,16 @@ main{
     font-family: "Inter", sans-serif;
 }
 .img-1{
-    margin-left: 160px;
+    margin-left: 180px;
+}
+.img-2{
+    margin-left: 40px;
+}
+.history-text-1{
+    margin-left: 50px;
 }
 .history-text-2{
-    margin-left: 100px;
+    margin-left: 130px;
 }
 .history-card-1 img{
     max-width: 624px;
