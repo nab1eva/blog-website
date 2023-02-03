@@ -15,6 +15,11 @@ nav {
     justify-content: space-between;
     align-items: center;
   }
+
+  .navlogo {
+    margin-top: 0px;
+    margin-left: 40px;
+  }
   
   .uil-bars {
     cursor: pointer;
@@ -76,6 +81,11 @@ nav {
     font-weight: 700;
     font-size: 18px;
     line-height: 24px;
+  }
+
+  .navbutton:hover {
+    background-color: #d4a41f;
+    transition: 0,5s;
   }
 
 .navlinks a {
@@ -232,43 +242,65 @@ h2{
 }
 
 form {
-    margin-top: 30px;  
-    width: 768px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 100px;
 }
 
-.forms {
-    width: 768px;
+form input {
+  padding-right: 700px;
+  max-width: 768px;
+  height: 56px;
+  padding-left: 15px;
+  border: 1px solid rgba(109, 110, 118, 0.5);
+  border-radius: 2px;
 }
 
-#username {
-    margin: 0px 305px;
-    padding: 24px 580px 24px 24px;
+input::placeholder {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #232536;
 }
 
-#Your-Email {
-    margin: 0px 305px;
-    padding: 24px 580px 24px 24px;
+
+form select {
+  max-width: 768px;
+  height: 56px;
+  padding-left: 25px;
+  border: 1px solid rgba(109, 110, 118, 0.5);
+  border-radius: 2px;
 }
 
-#related {
-    margin: 0px 305px;
-    padding: 24px 580px 24px 24px;
+form #text {
+  border: 1px solid rgba(109, 110, 118, 0.5);
+  border-radius: 2px;
+  max-width: 768px;
+  height: 100px;
 }
 
-#sorovnoma{
-    position: absolute;
-    margin-top: -60px;
-    margin-left: 880px;
-    border-radius: 6px;
+form button {
+  max-width: 768px;
+  height: 56px;
+  background: #ffd050;
+  border: transparent;
 }
 
-textarea {
-    margin: 0px 305px;
-    padding: 24px 4px 24px 24px;
+form button a {
+  font-family: "Sen", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  color: #232536;
 }
 
 .tugma {
-    margin: 0px 305px;
+    margin: 20px 305px 128px;
     padding: 16px 304px;
     background-color: #ffd256;
 }
@@ -413,6 +445,51 @@ footer {
   .footer-bottom-right img {
     width: 16px;
     height: 16px;
+  }
+
+  @media (max-width: 700px) {
+    .containers {
+      display: flex;
+      flex-direction: column;
+      max-width: 100%;
+    }
+  
+    .containers .left-content {
+      padding-left: 30px;
+      text-align: center;
+    }
+  
+    .containers .right-content {
+      padding-left: 100px;
+      text-align: center;
+    }
+  
+    .right-content .line {
+      display: none;
+    }
+  
+    .left-content .hr2 {
+      display: none;
+    }
+  }
+  
+  @media (min-width: 720px) {
+    /* --navbar -- */
+    #navbar-responsive {
+      display: none;
+    }
+  
+    #navbar-open {
+      display: none;
+    }
+  
+    .navlinks {
+      display: flex;
+      height: 100%;
+      align-items: center;
+    }
+  
+    /* --End nvnbar-- */
   }
 
   

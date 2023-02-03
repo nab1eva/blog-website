@@ -40,7 +40,7 @@
     width: 179px;
     height: 56px;
     margin-top: -20px;
-    margin-right: 80px;
+    margin-right: 40px;
     margin-bottom: 29px;
     margin-left: 8px;
     font-family: "Inter", sans-serif;
@@ -436,4 +436,34 @@ footer {
 .footer-bottom-right img {
   width: 16px;
   height: 16px;
+}
+
+@media (min-width: 600px) {
+  .footer-bottom {
+    flex-direction: inherit;
+  }
+}
+
+@media (min-width: 650px) {
+  .footertop {
+    flex-direction: inherit;
+  }
+}
+
+@media (min-width: 800px) {
+  .footer-subscribe {
+    flex-direction: inherit;
+  }
+}
+
+@media (min-width: 1250px) {
+  .footer-form input {
+    width: 250px;
+  }
+}
+
+@media (min-width: 1350px) {
+  .footer-form input {
+    width: 323px;
+  }
 }
