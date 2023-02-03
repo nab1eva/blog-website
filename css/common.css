@@ -1,55 +1,78 @@
-@import url('https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
 
 @import url(nav.css);
 @import url(footer.css);
+@import url(home.css);
 
-*{
-	margin: 0;
-	padding: 0;
-	text-decoration: none;
-	list-style-type: none;
-	scroll-behavior: smooth;
-	transition: var(--tran);
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  scroll-behavior: smooth;
+  transition: var(--tran);
 }
 
-*, *::after, *::before{
-	box-sizing: border-box;
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
 }
 
-.container{
-	min-width: 350px;
-	max-width: 1350px;
-	margin: 0 auto;
-	padding: 0 30px;
+.container {
+  min-width: 350px;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 30px;
 }
 
-input:focus{
-	outline: none;
+input:focus {
+  outline: none;
 }
 
-button{
-	cursor: pointer;
+button {
+  cursor: pointer;
+}
+
+:root {
+  --tran: all 0.5s ease;
+  --sen: "Sen", sans-serif;
+  --inter: "Inter", sans-serif;
+  --black: #232536;
+  --yellow: #ffd050;
+  --purple: #592ea9;
+  --darkgrey: #4c4c4c;
+  --grey: #6d6e76;
+  --lightgrey: #f4f4f4;
+  --white: #f4f0f8;
+  --lightyellow: #fbf6ea;
+  --buttonhover: #edc14a;
+  --background: #ffffff;
+}
+
+img {
+  width: 100%;
 }
 
 
-:root{
-	--tran: all 0.5s ease;
-	--sen: 'Sen', sans-serif;
-	--inter: 'Inter', sans-serif;
-	--black: #232536;
-	--yellow: #FFD050;
-	--purple: #592EA9;
-	--darkgrey: #4C4C4C;
-	--grey: #6D6E76;
-	--lightgrey: #F4F4F4;
-	--white: #F4F0F8;
-	--lightyellow: #FBF6EA;
-	--buttonhover: #EDC14A;
+
+#backtop {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 99;
+  border: 4px solid var(--yellow);
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+border-radius: 50%;
+  background-color: var(--background);
 }
 
-img{
-	width: 100%;
+#backtop a{
+  font-weight: 700;
+  font-size: 24px;
+line-height: 32px;
+  color: var(--yellow);
 }
-
-
