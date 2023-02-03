@@ -269,6 +269,7 @@ h2 {
   line-height: 28px;
   color: #6d6e76;
 }
+
 @media (max-width: 1120px) {
   .navbar-right {
     display: none;
