@@ -147,7 +147,7 @@ main{
     max-width: 624px;
     max-height: auto;
     left: 189px;
-    top: 180px;
+    top: 270px;
     background: #FFFFFF;
 }
 .card-home h2{
@@ -187,7 +187,7 @@ main{
 .line-1{
     width: 300px;
     position: absolute;
-    top: 920px;
+    top: 1000px;
    height: 20px;
     background-color: #592EA9;
     border: none;
@@ -197,7 +197,7 @@ main{
     height: 20px;
     background-color: #FFD050;
     position: absolute;
-    top: 920px;
+    top: 1000px;
    border: none;
    left: 28%;
 }
