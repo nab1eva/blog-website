@@ -117,7 +117,7 @@ button {
 .home-container {
   display: grid;
   grid-template-columns: repeat(2, auto);
-  grid-column-gap: 141px;
+  grid-column-gap: 240px;
 }
 
 .home-left {
