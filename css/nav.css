@@ -26,10 +26,10 @@ nav{
 	transition: var(--tran);
     display: block;
     position: fixed;
-    top: 0;
-	left: -100%;
+	top: -100%;
+    left: 0;
     bottom: 0;
-    height: 100vh;
+    height: 300px;
     width: 100%;
 	text-align: center;
 	background-color:  #232536e4;
