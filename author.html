@@ -8,66 +8,107 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Author</title>
     <link rel="stylesheet" href="./css/author.css" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
   </head>
   <body>
-    <nav class="navbar">
-      <div class="container">
-        <div class="navbar-container">
-          <div class="navbar-left">
-            <a href="category.html"
-              ><img src="images/blog/Logo.svg" alt="page"
-            /></a>
-          </div>
-          <div class="navbar-right">
-            <a href="index.html" class="nav-link">Home</a>
-            <a href="blogpost.html" class="nav-link">Blog</a>
-            <a href="about.html" class="nav-link">About Us</a>
-            <a href="contact.html" class="nav-link">Contact Us</a>
-            <div class="navbar-right-button">
-              <a href=""><button>Subscribe</button></a>
-            </div>
-          </div>
-          <div class="toggle">
-            <button id="navbar-open"><i class="uil uil-list-ul"></i></button>
-            <button id="navbar-close"><i class="uil uil-times"></i></button>
+    <button id="backtop" style="opacity: 1;">
+      <a href="#">Up</a>
+    </button>
+    <nav id="navbar" class="navbarshrink">
+      <div class="container navcontainer">
+        <div class="navlogo">
+          <img src="./images/Logo.png" alt="">
+        </div>
+        <div class="hamburger">
+          <i class="uil uil-bars" onclick="openNavbar()"></i>
+        </div>
+        <div class="navlinks">
+          <a href="index.html">Home</a>
+          <a href="blog.html">Blog</a>
+          <a href="about.html">About us</a>
+          <a href="contact.html">Contact us</a>
+          <button class="navbutton">Subscribe</button>
+        </div>
+        <div id="navbar-responsive">
+          <i id="navbar-close" class="uil uil-multiply" onclick="closeNavbar()"></i>
+          <div class="hamcontent">
+            <a href="index.html">Home</a>
+            <a href="blog.html">Blog</a>
+            <a href="about.html">About us</a>
+            <a href="contact.html">Contact us</a>
           </div>
         </div>
       </div>
-    </nav>
-    <nav id="navbar-responsive">
-      <a href="index.html" class="nav-link">Home</a>
-      <a href="blogpost.html" class="nav-link">Blog</a>
-      <a href="about.html" class="nav-link">About Us</a>
-      <a href="contact.html" class="nav-link">Contact Us</a>
-      <div class="navbar-right-button">
-        <a href=""><button>Subscribe</button></a>
-      </div>
-    </nav>
-    <header>
-      <div class="logo">
-        <div class="logo-image"></div>
+    </nav>   
+   <header>
+    <div class="container headercontainer">
+      <img src="images/author/first-image.jpg" alt="">
+      <div class="header-right">
         <h1>Hey there, I’m Andrew Jonhson and welcome to my Blog</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Non
-          blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At
-          risus viverra adipiscing at in tellus.
-        </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus.</p>
+        <div class="header-links">
+          <a href="https://www.facebook.com/"><img src="./images/facebook.png" alt=""></a>
+          <a href="https://www.twitter.com/"><img src="./images/twitter.png" alt=""></a>
+          <a href="https://www.instagram.com/"><img src="./images/instagram.png" alt=""></a>
+          <a href="https://www.linkedin.com/"><img src="./images/linkedin.png" alt=""></a>
+        </div>
       </div>
-      <div class="cards">
-        <div class="card">
-          <h1>My Posts</h1>
-          <div class="card-image"></div>
-          <p>BUSINESS</p>
-          <h2>Font sizes in UI design: The complete guide to follow</h2>
-          <div class="text">
-            <p>
-              
-            </p>
+    </div>
+   </header>
+   <main>
+    <div class="container maincontainer">
+      <h1>My Posts</h1>
+      <div class="post">
+        <img src="images/author/second-image.jpg" alt="">
+        <div class="post-right">
+          <h2>BUSINESS</h2>
+          <h1>Font sizes in UI design: The complete guide to follow</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+      <div class="post p2">
+        <img src="images/author/third-image.jpg" alt="">
+        <div class="post-right">
+          <h2>Economy</h2>
+          <h1>How to build rapport with your web design clients</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+    </div>
+   </main>
+    <footer>
+      <div class="container">
+        <div class="footertop">
+          <img src="./images/Logo.png" alt="">
+          <div class="footerlinks">
+            <a href="index.html">Home</a>
+            <a href="blog.html">Blog</a>
+            <a href="about.html">About us</a>
+            <a href="contact.html">Contact us</a>
+            <a href="policy.html">Privacy Policy</a>
+          </div>
+        </div>
+        <div class="footer-subscribe">
+          <h2>Subscribe to our news letter to get latest updates and news</h2>
+          <form class="footer-form" >
+            <input type="email" placeholder="Enter Your Email">
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+        <div class="footer-bottom">
+          <div class="footer-bottom-left">
+            <p>Finstreet 118 2561 Fintown</p>
+            <p>Hello@finsweet.com  020 7993 2905</p>
+          </div>
+          <div class="footer-bottom-right">
+            <a href="https://www.facebook.com/"><img src="./images/facebook.png" alt=""></a>
+            <a href="https://www.twitter.com/"><img src="./images/twitter.png" alt=""></a>
+            <a href="https://www.instagram.com/"><img src="./images/instagram.png" alt=""></a>
+            <a href="https://www.linkedin.com/"><img src="./images/linkedin.png" alt=""></a>
           </div>
         </div>
       </div>
-    </header>
+    </footer>
     <script src="js/main.js"></script>
   </body>
 </html>

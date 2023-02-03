@@ -1,110 +1,120 @@
-nav {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 10;
-  padding: 25px 0;
-  background-color: var(--black);
+nav{
+	position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+	padding: 25px 0;
+	background-color: var(--black);
 }
 
-.navcontainer {
-  display: grid;
-  grid-template-columns: auto auto;
-  justify-content: space-between;
-  align-items: center;
+
+.navcontainer{
+	display: grid;
+    grid-template-columns: auto auto;
+	justify-content: space-between;
+	align-items: center;
 }
 
-.uil-bars {
-  cursor: pointer;
-  color: var(--white);
-  font-size: 35px;
+
+.uil-bars{
+	cursor: pointer;
+	color: var(--white);
+	font-size: 35px;
 }
 
 #navbar-responsive {
-  transition: var(--tran);
-  display: block;
-  position: fixed;
-  top: 0;
-  left: -100%;
-  bottom: 0;
-  height: 100vh;
-  width: 100%;
-  text-align: center;
-  background-color: #232536e4;
-}
-
-.uil-multiply {
-  cursor: pointer;
-  padding: 25px 20px;
-  color: var(--white);
-  font-size: 35px;
-  position: absolute;
-  right: 0px;
-}
-
-.hamcontent {
-  padding: 25px 0;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-.hamcontent a {
-  margin: 10px;
-  font-family: var(--inter);
-  color: var(--white);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 28px;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-.navbutton {
-  margin-left: 20px;
-  display: none;
-  transform: scale(1);
-  background-color: var(--white);
-  color: var(--black);
-  font-family: var(--sen);
-  border: none;
-  padding: 16px 48px;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 24px;
-}
-
-.navlinks {
-  display: none;
-}
-
-.navlinks a {
-  margin: auto 12px;
-  font-family: var(--inter);
-  color: var(--white);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 28px;
-}
-
-.navbarshrink {
-  padding: 10px 0px;
-  box-shadow: 1px 5px 15px var(--black);
-}
-
-@media (min-width: 800px) {
-  .navbutton {
+	transition: var(--tran);
     display: block;
-  }
-  .hamburger {
-    display: none;
-  }
-  #navbar-responsive {
-    display: none;
-  }
-  .navlinks {
-    display: flex;
-  }
+    position: fixed;
+    top: 0;
+	left: -100%;
+    bottom: 0;
+    height: 100vh;
+    width: 100%;
+	text-align: center;
+	background-color:  #232536e4;
+}
+
+
+.uil-multiply{
+	cursor: pointer;
+	padding: 25px 30px;
+	color: var(--white);
+	font-size: 35px;
+	position: absolute;
+    right: 0px;
+}
+
+.hamcontent{
+	padding: 25px 0;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.hamcontent a{
+	margin: 10px;
+	font-family: var(--inter);
+	color: var(--white);
+	font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+nav a:hover{
+	text-decoration: underline;
+}
+
+
+.navbutton{
+	margin-left: 20px;
+	display: none;
+	transform: scale(1);
+	background-color: var(--white);
+	color: var(--black);
+	font-family: var(--sen);
+	border: none;
+	padding: 16px 48px;
+	font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.navlinks{
+	display: none;
+}
+
+.navlinks a{
+	margin: auto 12px;
+	font-family: var(--inter);
+	color: var(--white);
+	font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+
+.navbarshrink{
+	padding: 10px 0px;
+	box-shadow: 1px 5px 15px var(--black);
+}
+
+
+
+
+
+
+@media(min-width:800px){
+	.navbutton{
+		display: block;
+	}
+	.hamburger{
+		display: none;
+	}
+	#navbar-responsive{
+		display: none;
+	}
+	.navlinks{
+		display: flex;
+	}
 }

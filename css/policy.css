@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
 
 @import url(nav.css);
-
+@import url(footer.css);
 
 
 * {
@@ -53,4 +53,82 @@ button {
 
 img {
   width: 100%;
+}
+
+
+#backtop {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 99;
+  border: 4px solid var(--yellow);
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: var(--background);
+}
+
+#backtop a{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: var(--yellow);
+}
+
+
+header{
+  padding: 200px 0 128px;
+  background-color: var(--white);
+}
+
+main{
+  padding: 128px 0;
+  background-color: var(--background);
+}
+
+
+.headercontainer h1{
+  text-align: center;
+  font-family: var(--sen);
+	color: var(--black);
+	font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: -2px;
+}
+
+.headercontainer p{
+  text-align: center;
+  font-family: var(--inter);
+	color: var(--grey);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.maincontainer{
+  display: grid;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+}
+
+.maincontainer h1{
+  font-family: var(--sen);
+	color: var(--black);
+	font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: -2px;
+  max-width: 714px;
+}
+
+.maincontainer p{
+  font-family: var(--inter);
+	color: var(--grey);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  max-width: 768px;
 }

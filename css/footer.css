@@ -139,4 +139,116 @@ footer {
   .footer-form input {
     width: 323px;
   }
+  footer {
+    background-color: var(--black);
+  }
+
+  .footerlinks {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  .footerlinks a {
+    font-family: var(--inter);
+    color: var(--white);
+  }
+
+  .footerlinks a:hover {
+    text-decoration: underline;
+  }
+
+  .footertop img {
+    height: 28.35443115234375px;
+    width: 140px;
+  }
+
+  .footertop {
+    padding: 60px 0;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .footer-subscribe {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.059);
+    padding: 80px 64px;
+  }
+
+  .footer-subscribe h2 {
+    max-width: 562px;
+    font-family: var(--sen);
+    color: var(--white);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -2px;
+  }
+
+  .footer-form {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  .footer-form input {
+    font-family: var(--inter);
+    min-width: 100px;
+    max-width: 323px;
+    border: 1px solid #4c4c4c;
+    padding: 14px 20px;
+    background-color: transparent;
+    color: var(--grey);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .footer-form button {
+    font-family: var(--sen);
+    border: none;
+    padding: 16px 48px;
+    background-color: var(--yellow);
+    color: var(--black);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .footer-form button:hover {
+    background-color: var(--buttonhover);
+  }
+
+  .footer-bottom {
+    padding: 48px 0 56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .footer-bottom-left p {
+    font-family: var(--inter);
+    color: var(--white);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .footer-bottom-right {
+    display: flex;
+    gap: 26px;
+  }
+
+  .footer-bottom-right img {
+    width: 16px;
+    height: 16px;
+  }
 }
